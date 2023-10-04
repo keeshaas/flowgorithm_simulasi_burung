@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-03 10:02:45 AM"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtDTElFTlQtMTsyMDIzLTEwLTAzOzA4OjQ0OjM3IEFNOzMxODQ="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtDTElFTlQtMTsyMDIzLTEwLTAzOzEwOjAyOjQ1IEFNOzI7MzI3OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="V" type="Real" array="False" size=""/>
+            <declare name="S" type="Real" array="False" size=""/>
+            <declare name="Jarak" type="Real" array="False" size=""/>
+            <input variable="S"/>
+            <input variable="V"/>
+            <assign variable="Jarak" expression="Sin(2*S*3.141/180)*10"/>
+            <output expression="Jarak" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
